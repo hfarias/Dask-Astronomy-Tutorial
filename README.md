@@ -1,3 +1,3 @@
-# Dask-Astornomy-Tutorial
+# Dask-Astronomy-Tutorial
 
 ...........
