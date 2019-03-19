@@ -4,6 +4,7 @@ USER root
 RUN apt-get update \
   && apt-get install -yq --no-install-recommends graphviz git vim \
   && apt-get clean \
+  && apt-get -y install gcc mono-mcs ssh rsync \
   && rm -rf /var/lib/apt/lists/*
 USER $NB_USER
 
