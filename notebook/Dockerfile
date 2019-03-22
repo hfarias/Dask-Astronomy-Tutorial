@@ -16,6 +16,7 @@ RUN conda install --yes \
     nomkl \
     numpy==1.16.0 \
     pandas==0.24.0 \
+    astropy==3.1.2 \
     ipywidgets \
     jupyterlab==0.35 \
     && conda clean -tipsy
